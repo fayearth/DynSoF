@@ -24,10 +24,13 @@ bin/
 .classpath
 .project
 
-# macos
-
-*.DS_Store
-
 # fabric
 
 run/
+remappedSrc/
+
+# vim/ other unix backups
+
+.vim/
+*.bkp
+*~

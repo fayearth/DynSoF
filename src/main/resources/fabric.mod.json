@@ -1,38 +1,39 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dynsof",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "DynSoF",
+  "description": "Adds dynamic sound filters such as reverb in caves or ravines, muffled underwater sounds, dampens sounds behind walls and many more. All configurable.",
   "authors": [
-    "Me!"
+    "andre111",
+    "MikenRafter",
+	"Fayearth"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-sound-filters",
+    "sources": "https://bitbucket.org/andre111/dynamicsoundfilters/src",
+    "issues": "https://github.com/fayearth/DynSoF/issues"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
+  "icon": "icon.png",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.andre111.dynamicsf.DynamicSoundFilters"
+    ],
+    "modmenu": [
+      "me.andre111.dynamicsf.config.ConfigScreen"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "me.andre111.dynamicsf.mixin.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.12.1",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
+    "minecraft": "1.17.1",
+	"java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": "*"
   }
 }

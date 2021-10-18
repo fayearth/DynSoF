@@ -1,12 +1,10 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "me.andre111.dynamicsf.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "MixinSoundSystem",
+    "MixinSource"
   ],
   "injectors": {
     "defaultRequire": 1
