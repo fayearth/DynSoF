@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# DynSoF (DynamicSoundFilter)
+Adds dynamic sound filters such as reverb in caves or ravines, muffled underwater sounds, dampens sounds behind walls and many more. All configurable.
 
-## Setup
+## Requirements
+- JAVA 16+
+- Fabric Loader >=0.12.1
+- Fabric API 0.40.8+1.17
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Recommended Additions
+- ModMenu [[CurseForge](https://www.curseforge.com/minecraft/mc-mods/modmenu)] [[Modrinth](https://modrinth.com/mod/modmenu)] to get in-game mod configuration menu.
+- Presence Footsteps [[CurseForge](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps)] [[Modrinth](https://modrinth.com/mod/presence-footsteps)] for footstep acoustics.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Credits
+- **andre111** - Owner of DynamicSoundFilter mod [[CurseForge](https://www.curseforge.com/minecraft/mc-mods/dynamic-sound-filters)] [[Bitbucket](https://www.curseforge.com/minecraft/mc-mods/dynamic-sound-filters)].
+- **mikenrafter** - Added more superb features and various optimizations [[GitLab](https://gitlab.com/mikenrafter1/mc-dyn-sfx)].
