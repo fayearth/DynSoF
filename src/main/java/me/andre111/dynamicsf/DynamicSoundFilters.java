@@ -27,7 +27,7 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 @Environment(EnvType.CLIENT)
 public class DynamicSoundFilters implements ModInitializer {
 	private static final FilterManager FILTER_MANAGER = new FilterManager();
-	private static final Logger LOGGER = LogManager.getLogger();
+	private static final Logger LOGGER = LogManager.getLogger("dynsof");
 	
 	public static FilterManager getFilterManager() {
 		return FILTER_MANAGER;
