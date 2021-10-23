@@ -7,12 +7,12 @@
   "authors": [
     "andre111",
     "MikenRafter",
-    "Fayearth"
+	  "Fayearth"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-sound-filters",
     "sources": "https://bitbucket.org/andre111/dynamicsoundfilters/src",
-    "issues": "https://bitbucket.org/andre111/dynamicsoundfilters/issues"
+    "issues": "https://github.com/fayearth/DynSoF/issues"
   },
   "icon": "icon.png",
   "environment": "client",
@@ -28,7 +28,7 @@
     "me.andre111.dynamicsf.mixin.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.1",
+    "fabricloader": ">=0.11.7",
     "fabric": "*",
     "minecraft": "1.17.1",
     "java": ">=16"
