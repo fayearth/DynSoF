@@ -3,7 +3,7 @@ Adds dynamic sound filters such as reverb in caves or ravines, muffled underwate
 
 ## Requirements
 - JAVA 16+
-- Fabric Loader >=0.12.1
+- Fabric Loader >=0.11.7
 - Fabric API 0.40.8+1.17
 
 ## Recommended Additions
