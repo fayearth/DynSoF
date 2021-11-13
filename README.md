@@ -3,8 +3,8 @@ Adds dynamic sound filters such as reverb in caves or ravines, muffled underwate
 
 ## Requirements
 - JAVA 16+
-- Fabric Loader >=0.11.7
-- Fabric API 0.40.8+1.17
+- Fabric Loader >=0.12.0
+- Fabric API 0.42.1+1.17
 
 ## Recommended Additions
 - ModMenu [[CurseForge](https://www.curseforge.com/minecraft/mc-mods/modmenu)] [[Modrinth](https://modrinth.com/mod/modmenu)] to get in-game mod configuration menu.
