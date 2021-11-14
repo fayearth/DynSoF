@@ -39,9 +39,7 @@ public class DynamicSoundFilters implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing...");
 		Config.loadData();
 		ClientTickEvents.END_CLIENT_TICK.register(FILTER_MANAGER::updateGlobal);
-		LOGGER.info("Initialization complete");
 	}
 }
